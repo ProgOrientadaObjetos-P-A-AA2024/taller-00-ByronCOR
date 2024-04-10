@@ -10,6 +10,9 @@ package paquete2;
  *
  * @author reroes
  */
+import paquete1.Mensaje;
+
+
 public class Demo {
 
     /**
@@ -17,7 +20,7 @@ public class Demo {
      */
     public static void main(String[] args) {
         
-        // usar printf;
+        System.out.println(Mensaje.obtenerMensaje());
     }
     
 }
