@@ -22,9 +22,8 @@ public class Demo002 {
         System.out.println("Ingrese un numero");
         int num = entrada.nextInt();
 
-        if (num > 1 && num < 5) {
+        if (num > 0 && num < 6) {
             System.out.println(Mensaje.obtenerMensaje());
-
         } else {            
             System.out.println(Mensaje.obtenerMensaje().toUpperCase());
         }
