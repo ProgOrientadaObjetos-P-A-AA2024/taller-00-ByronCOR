@@ -21,15 +21,13 @@ public class Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-<<<<<<< HEAD
+
         
         System.out.println(Mensaje.obtenerMensaje());
-=======
 
         // usar printf;
-        System.out.printf("%s con %s\n", Mensaje.obtenerMensaje(),
-                Informacion.obtenerHabitantes());
->>>>>>> ea933f2751545eb0d231e5e40edba0af6a2d0d93
+
+
     }
 
 }

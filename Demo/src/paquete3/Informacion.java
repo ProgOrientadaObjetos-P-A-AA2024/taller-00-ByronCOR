@@ -5,19 +5,17 @@
  
 package paquete3;
 
-<<<<<<< HEAD
 
  
  //* @author reroes*/
-import paquete5.Dato;
-=======
+
+
 import paquete5.Dato;
 
 /**
  *
  * @author reroes
- */
->>>>>>> ea933f2751545eb0d231e5e40edba0af6a2d0d93
+*/
 public class Informacion {
 
     public static int obtenerHabitantes() {
