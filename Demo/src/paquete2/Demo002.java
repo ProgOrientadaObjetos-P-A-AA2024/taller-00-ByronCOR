@@ -19,7 +19,7 @@ public class Demo002 {
      */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese un numero");
+        System.out.println("Ingrese un numero╔╩╬╬");
         int num = entrada.nextInt();
 
         if (num > 0 && num < 6) {
@@ -27,7 +27,6 @@ public class Demo002 {
         } else {            
             System.out.println(Mensaje.obtenerMensaje().toUpperCase());
         }
-
         /* esta imprimiendo en pantalla lo que retorna el metodo obtenerMensaje
         dentro de la clase Mensaje que se encuetra en el paquete 1*/
         // usar printf;
