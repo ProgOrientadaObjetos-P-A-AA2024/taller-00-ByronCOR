@@ -5,15 +5,11 @@
  */
 package paquete2;
 
-import paquete1.Mensaje;
-import paquete3.Informacion;
-
 /**
  *
  * @author reroes
  */
 import paquete1.Mensaje;
-
 
 public class Demo {
 
@@ -22,11 +18,10 @@ public class Demo {
      */
     public static void main(String[] args) {
 
-        
         System.out.println(Mensaje.obtenerMensaje());
-
+        /* esta imprimiendo en pantalla lo que retorna el metodo obtenerMensaje
+        dentro de la clase Mensaje que se encuetra en el paquete 1*/
         // usar printf;
-
 
     }
 
